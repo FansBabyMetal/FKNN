@@ -10,7 +10,7 @@ from sklearn.base import BaseEstimator, ClassifierMixin
 # ============================================================
 
 class FuzzyKNN(BaseEstimator, ClassifierMixin):
-    def __init__(self, k=7, m=1.5):
+    def __init__(self, k=5, m=2):
         self.k = k
         self.m = m
 
